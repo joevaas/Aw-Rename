@@ -7,20 +7,20 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "21740783")
     API_HASH  = os.environ.get("API_HASH", "a5dc7fec8302615f5b441ec5e238cd46")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7444872585:AAHYzPX_gygFh9xYvu0-k7YOUg7BSG_hzHg") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7444018073:AAHIYXGx9XrkyoqM8hOn_U7UP46Vhqex7SA") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","boyrokey00")     
+    DB_NAME = os.environ.get("DB_NAME","TAF")     
     DB_URL  = os.environ.get("DB_URL","mongodb+srv://boyrokey00:rajan123@cluster0.4fhuu.mongodb.net/")
  
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/4b306f4b15c23a8f22e58.jpg")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6299192020').split()]
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6693549185').split()]
 
     # channels logs
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "ATXBOTS") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002149238052"))
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1002005092018") 
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002151806170"))
 
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
