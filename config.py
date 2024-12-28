@@ -25,6 +25,8 @@ class Config(object):
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
 
+    # Premium 4GB Renaming Client Config
+    STRING_SESSION = os.environ.get("STRING_SESSION", "BQGJpOEALt4IdhZRubNAl4m6iyA0sjD1NNcs1dUDtXqxTGeGCvh2bFNOhynMJuNGBUICu7rrchNnmex5X-1L1xv-f_iJb_OyISgz5NCEJPxDbPUWC-Y57qNqMaaBSmbSp0sKqRihRBwTbUuiw7RRJhWgEOpUJHjBRHcaopg-0O6DJd-TeLB2l7GyWw1ZNXUToIyDsNrd4xTUxqKPEUMGVusgU7S2k1Glc8bELlYGhvbZWus5Z5zC5ahssLLcujQfAyUpxoCdQ9d7AhOog0KdJOoMB4LMeL6AXcGF9F-MT3b4WD2W-x69zeqdzRjBPHQCVxpYgrTILAkz9nIZ4rdhS8g6TkJNowAAAAGO93SBAA")
 
 
 class Txt(object):
